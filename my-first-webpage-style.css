@@ -4,10 +4,14 @@ h1 {
     text-align: center;
     font-size: 500%;
     line-height: 500%;
+    border: outset;
+    border-width: 5px;
 }
 h2 {
     background-color: black;
     color: white;
+    border: outset;
+    border-width: 4px;
 }
 header {
     text-align: center;
@@ -15,6 +19,10 @@ header {
 nav {
     font-variant: small-caps;
     font-size: 200%;
+}
+a {
+    border: inset;
+    border-width: 3px;
 }
 Body {
     line-height: 150%;
